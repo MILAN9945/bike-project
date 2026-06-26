@@ -113,7 +113,7 @@ button {
     font-size: 40px;
 }
 
-.cost-button, .hero-button {
+.cost-button, .hero-order {
     color:var(--link-color);
     background-color: var(--buttons-bacground);
 }
