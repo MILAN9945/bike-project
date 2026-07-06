@@ -27,6 +27,14 @@ button {
     color: inherit;
 }
 
+.container {
+    width:1343px ;
+    padding: 0px 12px;
+    outline: solid green;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Загальні стилі */
 .section-title {
     font-size: 48px;
