@@ -12,6 +12,7 @@
     --text-color: #080303;
     --link-color: #fff;
     --buttons-bacground: #4175ef;
+    --button-border-color: #080303;
 }
 
 body {
@@ -66,9 +67,25 @@ button {
 }
 
 /* секція хедер */
+.header {
+    padding: 9px 0px;
+}
 
+.header-container {
+    display: flex;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 32px; 
+  margin-left: auto;
+}
 
 /* секція hero */
+.hero {
+    padding: 112px 0px;
+}
 
 .hero-title {
     font-size: 56px;
@@ -78,6 +95,32 @@ button {
     color: var(--link-color);
 }
 
+.hero-box {
+
+ display: flex;
+}
+
+.hero-text {
+    margin-bottom: 32px;
+}
+
+.hero-list {
+    display: flex;
+    gap: 16px;
+}
+
+.hero-item a {
+    padding: 12px 24px ;
+    border-radius: 6px;
+}
+
+.hero-learn  {
+    border: 1px solid var(--button-border-color);
+}
+
+.hero-photo {
+    margin-top: 40px;
+}
 /* секція accomplishments */
 
 .accomplishments-title {
