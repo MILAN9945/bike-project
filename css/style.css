@@ -29,7 +29,7 @@ button {
 }
 
 .container {
-    width:1343px ;
+    width: 1343px;
     padding: 0px 12px;
     outline: solid green;
     margin-left: auto;
@@ -78,8 +78,8 @@ button {
 .header-list {
     display: flex;
     align-items: center;
-    gap: 32px; 
-  margin-left: auto;
+    gap: 32px;
+    margin-left: auto;
 }
 
 /* секція hero */
@@ -89,6 +89,8 @@ button {
 
 .hero-title {
     font-size: 56px;
+    font-weight: 700;
+    font-family: "Poppins";
 }
 
 .hero-order {
@@ -97,11 +99,18 @@ button {
 
 .hero-box {
 
- display: flex;
+    display: flex;
+}
+
+.hero-subbox {
+    width: 640px;
+    margin-left: 40px;
+    flex-shrink: 0;
 }
 
 .hero-text {
     margin-bottom: 32px;
+    font-family: "Caladea";
 }
 
 .hero-list {
@@ -110,38 +119,82 @@ button {
 }
 
 .hero-item a {
-    padding: 12px 24px ;
+    padding: 12px 24px;
     border-radius: 6px;
 }
 
-.hero-learn  {
+.hero-learn {
     border: 1px solid var(--button-border-color);
 }
 
 .hero-photo {
     margin-top: 40px;
 }
+
 /* секція accomplishments */
+
+.accomplishments {
+    padding: 112px 0px;
+}
+
+.accomplishments-container {
+    display: flex;
+}
+
+.accomplishments-box {
+    margin-right: 32px;
+}
+
+.accomplishments-logo {
+    margin-bottom: 24px;
+}
 
 .accomplishments-title {
     font-size: 40px;
+    font-family: "Poppins";
+    margin-bottom: 24px;
 }
 
 /* секція innovative */
+.innovative {
+    padding-top: 112px;
+    padding-bottom: 112px;
+}
+
+.innovative-subtitle {
+    text-align: center;
+    margin-bottom: 16px;
+
+}
+
 
 .innovative-title {
     text-align: center;
+    font-family: "Poppins";
 }
 
 .innovative-text {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+.innovative-item {
+    border: 2px solid;
+    border-radius: 8px;
+}
+.innovative-card {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
 }
 
 /* секція precision */
 
+
 .precision-title {}
 
-.precision-info {
-}
+.precision-info {}
 
 .precision-name {
     font-size: 20px;
@@ -149,8 +202,7 @@ button {
 
 /* секція clients */
 
-.clients-subtitle {
-}
+.clients-subtitle {}
 
 /* секція gallary */
 
@@ -164,16 +216,15 @@ button {
     font-size: 40px;
 }
 
-.cost-button, .hero-order {
-    color:var(--link-color);
+.cost-button,
+.hero-order {
+    color: var(--link-color);
     background-color: var(--buttons-bacground);
 }
 
-.cost-text {
-}
+.cost-text {}
 
-.cost-subtext {
-}
+.cost-subtext {}
 
 /* секція footer */
 .footer {
