@@ -162,7 +162,6 @@ button {
 }
 
 .innovative-subtitle {
-    text-align: center;
     margin-bottom: 16px;
 
 }
@@ -182,12 +181,37 @@ button {
 .innovative-item {
     border: 2px solid;
     border-radius: 8px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
 }
+
+.innovative-item:nth-child(1) {
+    align-items: center;
+    flex-direction: row;
+}
+
 .innovative-card {
     display: flex;
     gap: 32px;
     justify-content: center;
+
 }
+
+.innovative-info {
+    margin-bottom: 8px;
+}
+
+.innovative-subtitle {
+    margin-bottom: 8px;
+}
+
+.innovative-box,
+.innovative-boxes {
+    padding: 24px;
+}
+
+
 
 /* секція precision */
 
