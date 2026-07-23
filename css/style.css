@@ -147,6 +147,8 @@ button {
 
 .accomplishments-logo {
     margin-bottom: 24px;
+    width: 48px;
+    height: 48px;
 }
 
 .accomplishments-title {
@@ -184,6 +186,8 @@ button {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+
+    background-color: #D9E3FB;
 }
 
 .innovative-item:nth-child(1) {
@@ -215,23 +219,102 @@ button {
 
 /* секція precision */
 
+.precision {
+    padding-bottom: 112px;
+}
 
-.precision-title {}
+.precision-container {
+    display: flex;
+    gap: 32px;
+}
 
-.precision-info {}
+.precision-list {
+    display: flex;
+    gap: 24px;
+}
+
+.precision-subtitle {
+    margin: 41px 0px 19px;
+}
+
+.precision-title {
+    margin-bottom: 24px;
+    font-family: 'Poppins';
+}
+
+.precision-text {
+    margin-bottom: 32px;
+}
+
 
 .precision-name {
     font-size: 20px;
+    margin-bottom: 16px;
+    font-family: 'Poppins';
+}
+
+.precision-info {
+    max-width: 308px;
+}
+
+/* секція gallary */
+
+.gallary {
+    padding: 112px 0px 112px;
+}
+
+.gallary-title {
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+.gallary-text {
+    text-align: center;
+    margin: 24px 0px 80px;
+}
+
+.gallary-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+}
+
+.gllary-box {
+    display: flex;
+    gap: 32px;
+}
+
+.gallary-images {
+    width: 304px;
+    height: 304px;
+}
+
+.gallary-img {
+    width: 640px;
+    height: 640px;
 }
 
 /* секція clients */
 
 .clients-subtitle {}
 
-/* секція gallary */
+.clients-comment {
 
-.gallary-title {
-    text-align: center;
+}
+
+.clients-star {
+    width: 20px;
+    height: 19px;
+}
+
+.clients-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clients-subtext {
+    max-width: 416px;
 }
 
 /* секція cost */
