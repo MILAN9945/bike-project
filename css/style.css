@@ -297,10 +297,31 @@ button {
 
 /* секція clients */
 
-.clients-subtitle {}
+.clients {
+    padding: 112px 0px;
+}
 
 .clients-comment {
+    outline: solid green;
+}
 
+.clients-title {
+    font-family: 'Poppins';
+    margin-bottom: 24px;
+}
+
+.clients-text {
+    margin-bottom: 80px;
+}
+
+.clients-subtitle {}
+
+.clients-comment {}
+
+.clients-stars {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 32px;
 }
 
 .clients-star {
@@ -311,16 +332,34 @@ button {
 .clients-list {
     display: flex;
     flex-wrap: wrap;
+    gap: 32px;
 }
 
 .clients-subtext {
     max-width: 416px;
+    margin-bottom: 59px;
 }
 
 /* секція cost */
 
+.cost {
+    padding: 80px 0px 161px;
+}
+
+.cost-container {
+    display: flex;
+    gap: 32px;
+}
+
 .cost-title {
     font-size: 40px;
+    font-family: 'Poppins';
+    margin-bottom: 24px;
+}
+
+.cost-subtitle {
+    font-family: 'Poppins';
+    margin-bottom: 24px;
 }
 
 .cost-button,
@@ -329,13 +368,50 @@ button {
     background-color: var(--buttons-bacground);
 }
 
-.cost-text {}
+.cost-text {
+    margin-bottom: 16px;
+}
+
+.cost-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.cost-button {
+    padding: 12px 125px;
+    border-radius: 6px;
+}
 
 .cost-subtext {}
 
 /* секція footer */
 .footer {
     background-color: #7a9ef3;
+    padding: 80px 0px;
+}
+
+.footer-box {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.footer-list {
+    display: flex;
+    gap: 32px;
+    margin-left: auto;
+}
+
+.footer-messengers {
+    display: flex;
+    gap: 12px;
+    margin-left: auto;
+}
+
+.footer-img {
+    max-width: 301px;
 }
 
 .footer-link {
@@ -344,4 +420,6 @@ button {
 
 .footer-text {
     color: #fff;
+    text-align: center;
+    margin-top: 56px;
 }
