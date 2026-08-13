@@ -382,6 +382,7 @@ button {
 .cost-button {
     padding: 12px 125px;
     border-radius: 6px;
+    border: none;
 }
 
 .cost-subtext {}
