@@ -8,6 +8,10 @@
     font-style: normal;
 } */
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
     --text-color: #080303;
     --link-color: #fff;
@@ -97,6 +101,12 @@ button {
     color: var(--link-color);
 }
 
+.hero-order:hover {
+    border: 1px solid var(--button-border-color);
+    color: var(--text-color);
+    background-color: transparent;
+}
+
 .hero-box {
 
     display: flex;
@@ -125,6 +135,12 @@ button {
 
 .hero-learn {
     border: 1px solid var(--button-border-color);
+}
+
+.hero-learn:hover {
+    color: var(--link-color);
+    background-color: var(--buttons-bacground);
+    border: none;
 }
 
 .hero-photo {
@@ -383,6 +399,12 @@ button {
     padding: 12px 125px;
     border-radius: 6px;
     border: none;
+}
+
+.cost-button:hover {
+    border: 1px solid var(--button-border-color);
+    color: var(--text-color);
+    background-color: transparent;
 }
 
 .cost-subtext {}
