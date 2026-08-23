@@ -9,7 +9,7 @@
 } */
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -75,8 +75,13 @@ button {
     padding: 9px 0px;
 }
 
+.header-svg {
+    width: 61px;
+}
+
 .header-container {
     display: flex;
+    height: 72px;
 }
 
 .header-list {
@@ -161,7 +166,13 @@ button {
     margin-right: 32px;
 }
 
-.accomplishments-logo {
+/* .accomplishments-logo {
+    margin-bottom: 24px;
+    width: 48px;
+    height: 48px;
+} */
+
+.accomplishments-svg {
     margin-bottom: 24px;
     width: 48px;
     height: 48px;
@@ -224,6 +235,7 @@ button {
 
 .innovative-subtitle {
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .innovative-box,
@@ -338,10 +350,11 @@ button {
     display: flex;
     gap: 4px;
     margin-bottom: 32px;
+    fill: #4175ef;
 }
 
-.clients-star {
-    width: 20px;
+.clients-svg {
+     width: 20px;
     height: 19px;
 }
 
@@ -433,8 +446,19 @@ button {
     margin-left: auto;
 }
 
+.footer-svg {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+}
+
 .footer-img {
     max-width: 301px;
+}
+
+.footer-logo {
+     max-width: 301px;
+     fill: #FEFEFE;
 }
 
 .footer-link {
