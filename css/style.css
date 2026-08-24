@@ -75,8 +75,15 @@ button {
     padding: 9px 0px;
 }
 
+.heder-note {
+    display: flex;
+    align-items: center;
+}
+
 .header-svg {
     width: 61px;
+    height: 41px;
+
 }
 
 .header-container {
@@ -354,7 +361,7 @@ button {
 }
 
 .clients-svg {
-     width: 20px;
+    width: 20px;
     height: 19px;
 }
 
@@ -362,6 +369,14 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 32px;
+}
+
+.clients-comment:nth-child(1) .clients-item:last-child .clients-svg,
+.clients-comment:nth-child(4) .clients-item:last-child .clients-svg,
+.clients-comment:last-child .clients-item:last-child .clients-svg {
+    fill: none;
+    stroke: #4175ef;
+    stroke-width: 2px;
 }
 
 .clients-subtext {
@@ -457,8 +472,9 @@ button {
 }
 
 .footer-logo {
-     max-width: 301px;
-     fill: #FEFEFE;
+  width: 301px;
+    height: 129px;
+    fill: #FEFEFE;
 }
 
 .footer-link {
