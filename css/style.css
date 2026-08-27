@@ -472,7 +472,7 @@ button {
 }
 
 .footer-logo {
-  width: 301px;
+    width: 301px;
     height: 129px;
     fill: #FEFEFE;
 }
@@ -485,4 +485,11 @@ button {
     color: #fff;
     text-align: center;
     margin-top: 56px;
+    font-size: 14px;
+
+}
+
+.footer-line {
+    outline: solid #fff;
+    margin-top: 24px;
 }
