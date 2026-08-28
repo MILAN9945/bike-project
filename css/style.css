@@ -72,7 +72,13 @@ button {
 
 /* секція хедер */
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
     padding: 9px 0px;
+    backdrop-filter: blur(10px);
+    background-color: #ffffff6f;
+    width: 100%;
 }
 
 .heder-note {
@@ -490,6 +496,6 @@ button {
 }
 
 .footer-line {
-    outline:1px solid #fff;
+    outline: 1px solid #fff;
     margin-top: 24px;
 }
