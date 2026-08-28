@@ -79,6 +79,7 @@ button {
     backdrop-filter: blur(10px);
     background-color: #ffffff6f;
     width: 100%;
+   box-shadow:3px 15px 40px 3px  ;
 }
 
 .heder-note {
