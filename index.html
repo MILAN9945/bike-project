@@ -419,7 +419,7 @@
                             <p class="cost-subtext text">Long-range battery life</p>
                         </li>
                     </ul>
-                    <button class="cost-button link">Buy Now</button>
+                    <button type="button" class="cost-button link" data-open>Buy Now</button>
                 </div>
             </div>
         </section>
@@ -465,29 +465,29 @@
                 </ul>
                 <ul class="footer-messengers">
                     <li class="footer-icon"><a class="footer-href" href="">
-                       <svg class="footer-svg">
-                        <use href="./icons/icons.svg#icon-facebook"></use>
-                       </svg>
-                    </a>
-                </li>
+                            <svg class="footer-svg">
+                                <use href="./icons/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
                     <li class="footer-icon"><a class="footer-href" href="">
-                         <svg class="footer-svg">
-                        <use href="./icons/icons.svg#icon-instagram"></use>
-                       </svg>
-                    </a>
-                </li>
+                            <svg class="footer-svg">
+                                <use href="./icons/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
                     <li class="footer-icon"><a class="footer-href" href="">
-                        <svg class="footer-svg">
-                        <use href="./icons/icons.svg#icon-x"></use>
-                       </svg>
-                    </a>
-                </li>
+                            <svg class="footer-svg">
+                                <use href="./icons/icons.svg#icon-x"></use>
+                            </svg>
+                        </a>
+                    </li>
                     <li class="footer-icon"><a class="footer-href" href="">
-                         <svg class="footer-svg">
-                        <use href="./icons/icons.svg#icon-youtube"></use>
-                       </svg>
-                    </a>
-                </li>
+                            <svg class="footer-svg">
+                                <use href="./icons/icons.svg#icon-youtube"></use>
+                            </svg>
+                        </a>
+                    </li>
                 </ul>
             </div>
             <div class="footer-line"></div>
@@ -495,6 +495,31 @@
         </div>
     </footer>
     <a class="scroll" href="#scroll">to top</a>
+    <div class="backdrop is-hidden" data-order-modal>
+        <div class="modal" >
+            <button class="modal-close" type="button" data-close>X</button>
+            <h2 class="modal-title">Order E-bike</h2>
+            <ul class="modal-list">
+                <li class="modal-item">
+                    <label for="">Name*</label>
+                    <input placeholder="Thomas" type="text" class="modal-inp">
+                </li>
+                <li class="modal-item">
+                    <label for="">Email*</label>
+                    <input placeholder="hello@e-bike.com" type="text" class="modal-inp">
+                </li>
+                <li class="modal-item">
+                    <label for="">Address*</label>
+                    <input placeholder="Nieuwendijk 100, 1012 MR Amsterdam" type="text" class="modal-inp">
+                </li>
+                <li class="modal-item">
+                    <label for="">Comment</label>
+                    <input placeholder="Type your comment..." type="text" class="modal-inp">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script type="module" src="./js/modal.js"></script>
 </body>
 
 </html>
