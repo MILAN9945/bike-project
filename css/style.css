@@ -79,7 +79,7 @@ button {
     backdrop-filter: blur(10px);
     background-color: #ffffff6f;
     width: 100%;
-   box-shadow:3px 15px 40px 3px  ;
+    box-shadow: 3px 15px 40px 3px;
 }
 
 .heder-note {
@@ -499,4 +499,22 @@ button {
 .footer-line {
     outline: 1px solid #fff;
     margin-top: 24px;
+}
+
+.scroll {
+    border-radius: 50%;
+    background-color: #4175ef;
+    width: 100px;
+    height: 100px;
+    display: block;
+
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
 }
