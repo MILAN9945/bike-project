@@ -1,0 +1,31 @@
+.container {
+    width: 367px;
+    padding: 0px 16px;
+    outline: solid green;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* секція хедер */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+  
+    backdrop-filter: blur(10px);
+    background-color: #ffffff6f;
+    width: 100%;
+    box-shadow: 3px 15px 40px 3px;
+}
+
+.heder-note {
+    display: flex;
+    align-items: center;
+}
+
+.header-list {
+    align-items: center;
+    gap: 32px;
+    margin-left: auto;
+    display: none;
+}

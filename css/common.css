@@ -1,0 +1,33 @@
+/* 3-й спосіб підключення шрифтів
+@font-face {
+    font-family: 'Caladea'; 
+    src: url('../fonts/Caladea/Caladea-Bold.ttf') format('woff2'), 
+         url('../fonts/Caladea/Caladea-BoldItalic.ttf') format('woff'),
+         url('../fonts/Caladea/') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+} */
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --text-color: #080303;
+    --link-color: #fff;
+    --buttons-bacground: #4175ef;
+    --button-border-color: #080303;
+}
+
+body {
+    font-family: "Cantarell", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+a,
+button {
+    font-family: inherit;
+    color: inherit;
+}
