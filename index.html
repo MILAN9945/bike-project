@@ -28,7 +28,6 @@
     <header class="header">
         <div class="container header-container">
             <a class="heder-note" href="">
-                <!-- <img class="header-logo" src="./img/logo.webp" alt="bike-logo"> -->
                 <svg class="header-svg">
                     <use href="./icons/icons.svg#icon-logo"></use>
                 </svg>
@@ -66,6 +65,11 @@
                     </a>
                 </li>
             </ul>
+            <button class="header-burger" data-burger-open>
+                <svg class="header-burger-svg">
+                    <use href="./icons/icons.svg#icon-burger"></use>
+                </svg>
+            </button>
         </div>
     </header>
     <main class="main">
@@ -498,7 +502,7 @@
     </footer> -->
     <a class="scroll" href="#scroll">to top</a>
     <div class="backdrop is-hidden" data-order-modal>
-        <div class="modal" >
+        <div class="modal">
             <button class="modal-close" type="button" data-close>X</button>
             <h2 class="modal-title">Order E-bike</h2>
             <ul class="modal-list">
@@ -521,7 +525,55 @@
             </ul>
         </div>
     </div>
+
+    <div class="menu">
+        <a class="menu-note" href="">
+            <svg class="menu-svg">
+                <use href="./icons/icons.svg#icon-logo"></use>
+            </svg>
+        </a>
+        <button class="menu-burger" data-burger-open>
+            <svg class="menu-burger-svg">
+                <use href="./icons/icons.svg#icon-burger"></use>
+            </svg>
+        </button>
+        <ul class="menu-list">
+            <li class="menu-item">
+                <a class="menu-link link" href="index.html" target="_blank">
+                    Home
+                </a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link link" href="">
+                    About bike
+                </a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link link" href="">
+                    Benefits
+                </a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link link" href="">
+                    Specs
+                </a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link link" href="">
+                    Gallery
+                </a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-link link" href="">
+                    Testimonials
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
     <script type="module" src="./js/modal.js"></script>
+    <script type="module" src="./js/burger.js"></script>
 </body>
 
 </html>
