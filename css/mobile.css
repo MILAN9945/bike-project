@@ -1,5 +1,6 @@
 .container {
-    width: 367px;
+    max-width: 367px;
+    width: 100%;
     padding: 0px 16px;
     outline: solid green;
     margin-left: auto;
@@ -11,7 +12,7 @@
     position: fixed;
     top: 0;
     left: 0;
-  
+
     backdrop-filter: blur(10px);
     background-color: #ffffff6f;
     width: 100%;
@@ -31,7 +32,7 @@
 }
 
 .header-burger {
- margin-left: auto;
+    margin-left: auto;
 }
 
 .header-burger-svg {

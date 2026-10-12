@@ -74,7 +74,7 @@
     </header>
     <main class="main">
         <!--HERO-->
-        <!-- <section id="scroll" class="hero">
+        <section id="scroll" class="hero">
             <div class="container">
                 <div class="hero-box">
                     <h1 class="hero-title section-title">Unleash Your Ride with E-Bike Nova</h1>
@@ -98,9 +98,17 @@
 
                     </div>
                 </div>
-                <img class="hero-photo" src="./img/hero-card.webp" alt="foto1">
+                <picture>
+                    <source media="(min-width: 1343px)" srcset="">
+                    <source media="(min-width: 768px)"
+                        srcset="./img/tablet/hero-tablet-1x.webp 1x, ./img/tablet/hero-tablet-2x.webp 2x">
+                    <source media="(max-width: 767.98px)"
+                        srcset="./img/mobile/hero-mobile-1x.webp 1x, ./img/mobile/hero-mobile-2x.webp">
+
+                    <img class="hero-photo" src="./img/hero-card.webp" alt="foto1">
+                </picture>
             </div>
-        </section> -->
+        </section>``
         <!--accomplishments-->
         <!-- <section class="accomplishments">
             <div class="container accomplishments-container">
