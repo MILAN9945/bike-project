@@ -8,50 +8,7 @@
 
 
 
-/* Загальні стилі */
-.section-title {
-    font-size: 48px;
-    line-height: 120%;
-    letter-spacing: -0.01em;
 
-}
-
-.link {
-    font-weight: 400;
-    line-height: 150%;
-
-}
-
-.text {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 150%;
-}
-
-.hint {
-    line-height: 150%;
-}
-
-.subtitle {
-    font-size: 24px;
-    line-height: 140%;
-    letter-spacing: -0.01em;
-}
-
-
-
-
-
-.header-svg {
-    width: 61px;
-    height: 41px;
-
-}
-
-.header-container {
-    display: flex;
-    height: 72px;
-}
 
 
 

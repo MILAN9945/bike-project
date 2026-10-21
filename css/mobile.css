@@ -22,6 +22,8 @@
 .heder-note {
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin-left: auto;
 }
 
 .header-list {
@@ -38,6 +40,17 @@
 .header-burger-svg {
     fill: #080303;
     stroke: #080303;
-    width: 48px;
-    height: 48px;
+    width: 32px;
+    height: 32px;
+}
+
+.header-svg {
+    width: 146px;
+    height: 62.57px;
+
+}
+
+.header-container {
+    display: flex;
+    height: 72px;
 }

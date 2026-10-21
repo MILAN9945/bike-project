@@ -4,11 +4,44 @@
     padding: 0 24px;
   }
 
+  /* секція хедер */
   .header {
-    padding:0 9px;
+    padding: 0 9px;
+  }
+
+  .heder-note {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
   }
 
   .header-list {
+    align-items: center;
+    gap: 32px;
+    margin-left: auto;
+    display: none;
+  }
+
+  .header-burger {
+    display: none;
+  }
+
+  .header-burger-svg {
+    fill: #080303;
+    stroke: #080303;
+    width: 32px;
+    height: 32px;
+  }
+
+  .header-svg {
+    width: 146px;
+    height: 62.57px;
+
+  }
+
+  .header-container {
     display: flex;
+    height: 72px;
   }
 }
