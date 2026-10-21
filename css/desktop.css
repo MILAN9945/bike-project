@@ -4,5 +4,43 @@
         padding: 0px 12px;
     }
 
+    /* секція хедер */
+    .header-list {
+        margin-left: auto;
+        display: flex;
+    }
+
+    .header-svg {
+        width: 126px;
+        height: 54px;
+
+    }
+
+    .header-container {
+        display: flex;
+        height: 55px;
+    }
+
+    .heder-note {
+        margin-left: 0.1px;
+    }
+
+    /* секція hero */
+    .hero {
+        padding: 112px 0px;
+    }
+
+    .hero-title {
+        font-size: 56px;
+    }
+
+    .hero-subbox {
+        width: 640px;
+        margin-left: 40px;
+    }
+
+    .hero-text {
+        max-width: 640px;
+    }
 
 }

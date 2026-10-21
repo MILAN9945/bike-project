@@ -12,66 +12,24 @@
 
 
 
-/* секція hero */
-.hero {
-    padding: 112px 0px;
-}
 
-.hero-title {
-    font-size: 56px;
-    font-weight: 700;
-    font-family: "Poppins";
-}
 
-.hero-order {
-    color: var(--link-color);
-}
 
-.hero-order:hover {
-    border: 1px solid var(--button-border-color);
-    color: var(--text-color);
-    background-color: transparent;
-}
 
-.hero-box {
 
-    display: flex;
-}
 
-.hero-subbox {
-    width: 640px;
-    margin-left: 40px;
-    flex-shrink: 0;
-}
 
-.hero-text {
-    margin-bottom: 32px;
-    font-family: "Caladea";
-}
 
-.hero-list {
-    display: flex;
-    gap: 16px;
-}
 
-.hero-item a {
-    padding: 12px 24px;
-    border-radius: 6px;
-}
 
-.hero-learn {
-    border: 1px solid var(--button-border-color);
-}
 
-.hero-learn:hover {
-    color: var(--link-color);
-    background-color: var(--buttons-bacground);
-    border: none;
-}
 
-.hero-photo {
-    margin-top: 40px;
-}
+
+
+
+
+
+
 
 /* секція accomplishments */
 

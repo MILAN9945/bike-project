@@ -54,3 +54,70 @@
     display: flex;
     height: 72px;
 }
+
+/* секція hero */
+.hero {
+    padding: 64px 0px;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    font-family: "Poppins";
+}
+
+.hero-order {
+    color: var(--link-color);
+}
+
+.hero-order:hover {
+    border: 1px solid var(--button-border-color);
+    color: var(--text-color);
+    background-color: transparent;
+}
+
+.hero-box {}
+
+.hero-subbox {
+    width: 335px;
+    margin-top: 24px;
+    flex-shrink: 0;
+}
+
+.hero-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 32px;
+    font-family: "Caladea";
+    max-width: 335px;
+}
+
+.hero-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.hero-item a {
+    border-radius: 6px;
+    padding: 12px 100px;
+}
+
+.hero-learn {
+    border: 1px solid var(--button-border-color);
+}
+
+.hero-learn:hover {
+    color: var(--link-color);
+    background-color: var(--buttons-bacground);
+    border: none;
+}
+
+.hero-photo {
+    margin-top: 40px;
+}
