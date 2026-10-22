@@ -203,9 +203,11 @@
     justify-content: center;
     flex-direction: column;
 }
+
 .innovative-info {
     margin-bottom: 8px;
 }
+
 .innovative-subtitle {
     margin-bottom: 8px;
     text-align: center;
@@ -217,3 +219,50 @@
 }
 
 
+/* секція precision */
+
+.precision {
+    padding-bottom: 64px;
+}
+
+.precision-container {}
+
+.precision-list {
+    display: flex;
+    gap: 16px;
+}
+
+.precision-subtitle {
+    margin: 0px 0px 16px;
+}
+
+.precision-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    margin-bottom: 24px;
+    font-family: 'Poppins';
+}
+
+.precision-text {
+    margin-bottom: 32px;
+}
+
+.precision-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.01em;
+    margin-bottom: 16px;
+    font-family: 'Poppins';
+}
+
+.precision-info {
+    max-width: 159.5px;
+}
+
+.precision-img {
+    margin-top: 24px;
+    width: 335px;
+}

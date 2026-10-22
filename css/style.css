@@ -61,45 +61,19 @@
 
 
 
-/* секція precision */
-
-.precision {
-    padding-bottom: 112px;
-}
-
-.precision-container {
-    display: flex;
-    gap: 32px;
-}
-
-.precision-list {
-    display: flex;
-    gap: 24px;
-}
-
-.precision-subtitle {
-    margin: 41px 0px 19px;
-}
-
-.precision-title {
-    margin-bottom: 24px;
-    font-family: 'Poppins';
-}
-
-.precision-text {
-    margin-bottom: 32px;
-}
 
 
-.precision-name {
-    font-size: 20px;
-    margin-bottom: 16px;
-    font-family: 'Poppins';
-}
 
-.precision-info {
-    max-width: 308px;
-}
+
+
+
+
+
+
+
+
+
+
 
 /* секція gallary */
 
