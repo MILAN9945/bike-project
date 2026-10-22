@@ -51,13 +51,55 @@
   .hero-text {
     max-width: 340px;
   }
+
   .hero-list {
     display: flex;
-flex-direction: row;
- gap: 16px;
-}
-.hero-item a {
+    flex-direction: row;
+    gap: 16px;
+  }
+
+  .hero-item a {
     padding: 12px 24px;
 
+  }
+
+  /* секція accomplishments */
+
+  .accomplishments-container {
+    display: flex;
+  }
+
+  .accomplishments-box {
+    margin-right: 24px;
+  }
+
+  .accomplishments-card {
+    width: 340px;
+  }
+
+  /* секція innovative */
+  .innovative-item {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+  .innovative-item:nth-child(1) {
+    flex-direction: row;
 }
+
+  .innovative-card {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+.innovative-box,
+.innovative-boxes {
+    padding: 24px;
+}
+
+
+
 }

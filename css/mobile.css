@@ -121,3 +121,99 @@
 .hero-photo {
     margin-top: 40px;
 }
+
+/* секція accomplishments */
+
+.accomplishments {
+    padding: 64px 0px;
+}
+
+.accomplishments-text {
+    margin-bottom: 24px;
+
+}
+
+.accomplishments-container {
+    display: block;
+}
+
+/* .accomplishments-logo {
+    margin-bottom: 24px;
+    width: 48px;
+    height: 48px;
+} */
+.accomplishments-svg {
+    margin-bottom: 24px;
+    width: 48px;
+    height: 48px;
+}
+
+.accomplishments-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    font-family: "Poppins";
+    margin-bottom: 24px;
+}
+
+/* секція innovative */
+.innovative {
+    padding-top: 64px;
+    padding-bottom: 112px;
+}
+
+.innovative-subtitle {
+    margin-bottom: 16px;
+}
+
+.innovative-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    font-family: "Poppins";
+}
+
+.innovative-text {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+.innovative-item {
+    border: 2px solid;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+
+    background-color: #D9E3FB;
+}
+
+.innovative-item:nth-child(1) {
+    align-items: center;
+    flex-direction: column;
+}
+
+.innovative-card {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    flex-direction: column;
+}
+.innovative-info {
+    margin-bottom: 8px;
+}
+.innovative-subtitle {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.innovative-box,
+.innovative-boxes {
+    padding: 30.5px 16px;
+}
+
+

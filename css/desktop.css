@@ -42,5 +42,34 @@
     .hero-text {
         max-width: 640px;
     }
+/* секція accomplishments */
 
+.accomplishments {
+    padding: 112px 0px;
+}
+.accomplishments-box {
+    margin-right: 32px;
+}
+.accomplishments-title {
+    font-size: 40px;
+}
+.accomplishments-card {
+  width: auto;
+}
+/* секція innovative */
+.innovative {
+    padding-top: 112px;
+    padding-bottom: 112px;
+}
+.innovative-item {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.innovative-card {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+flex-wrap: nowrap;
+}
 }

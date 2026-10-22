@@ -31,96 +31,33 @@
 
 
 
-/* секція accomplishments */
-
-.accomplishments {
-    padding: 112px 0px;
-}
-
-.accomplishments-container {
-    display: flex;
-}
-
-.accomplishments-box {
-    margin-right: 32px;
-}
-
-/* .accomplishments-logo {
-    margin-bottom: 24px;
-    width: 48px;
-    height: 48px;
-} */
-
-.accomplishments-svg {
-    margin-bottom: 24px;
-    width: 48px;
-    height: 48px;
-}
-
-.accomplishments-title {
-    font-size: 40px;
-    font-family: "Poppins";
-    margin-bottom: 24px;
-}
-
-/* секція innovative */
-.innovative {
-    padding-top: 112px;
-    padding-bottom: 112px;
-}
-
-.innovative-subtitle {
-    margin-bottom: 16px;
-
-}
 
 
-.innovative-title {
-    text-align: center;
-    font-family: "Poppins";
-}
 
-.innovative-text {
-    text-align: center;
-    margin-top: 24px;
-    margin-bottom: 40px;
-}
 
-.innovative-item {
-    border: 2px solid;
-    border-radius: 8px;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
 
-    background-color: #D9E3FB;
-}
 
-.innovative-item:nth-child(1) {
-    align-items: center;
-    flex-direction: row;
-}
 
-.innovative-card {
-    display: flex;
-    gap: 32px;
-    justify-content: center;
 
-}
 
-.innovative-info {
-    margin-bottom: 8px;
-}
 
-.innovative-subtitle {
-    margin-bottom: 8px;
-    text-align: center;
-}
 
-.innovative-box,
-.innovative-boxes {
-    padding: 24px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
