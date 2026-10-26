@@ -266,3 +266,244 @@
     margin-top: 24px;
     width: 335px;
 }
+
+/* секція gallary */
+
+.gallary {
+    padding: 64px 0px 64px;
+}
+
+.gallary-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+.gallary-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    margin: 24px 0px 32px;
+}
+
+.gallary-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+.gllary-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.gallary-images {
+    border-radius: 8px;
+    width: 159px;
+    height: 159px;
+}
+
+.gallary-img {
+    border-radius: 8px;
+    width: 335px;
+    height: 335px;
+}
+
+/* секція clients */
+
+.clients {
+    padding: 64px 0px;
+}
+
+.clients-comment {
+    outline: solid green;
+}
+
+.clients-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    font-family: 'Poppins';
+    margin-bottom: 24px;
+}
+
+.clients-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 40px;
+}
+
+.clients-subtitle {}
+
+.clients-comment {}
+
+
+.clients-stars {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 32px;
+    fill: #4175ef;
+}
+
+.clients-svg {
+    width: 20px;
+    height: 19px;
+}
+
+.clients-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 64px;
+}
+
+.clients-comment:nth-child(1) .clients-item:last-child .clients-svg,
+.clients-comment:nth-child(4) .clients-item:last-child .clients-svg,
+.clients-comment:last-child .clients-item:last-child .clients-svg {
+    fill: none;
+    stroke: #4175ef;
+    stroke-width: 2px;
+}
+
+.clients-subtext {
+    margin-bottom: 32px;
+}
+
+/* секція cost */
+
+.cost {
+    padding: 48px 0px 48px;
+}
+
+.cost-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.cost-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    font-family: 'Poppins';
+    margin-bottom: 24px;
+}
+
+.cost-subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: -0.01em;
+    font-family: 'Poppins';
+    margin-bottom: 24px;
+}
+
+.cost-button,
+.hero-order {
+    color: var(--link-color);
+    background-color: var(--buttons-bacground);
+}
+
+.cost-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 16px;
+}
+
+.cost-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.cost-button {
+    width: 340px;
+    height: 45px;
+    border-radius: 6px;
+    border: none;
+}
+
+.cost-button:hover {
+    border: 1px solid var(--button-border-color);
+    color: var(--text-color);
+    background-color: transparent;
+}
+
+.cost-subtext {}
+
+/* секція footer */
+.footer {
+    background-color: #7a9ef3;
+    padding: 48px 0px;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-messengers {
+    display: flex;
+    gap: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-svg {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+}
+
+.footer-img {
+    max-width: 301px;
+}
+
+.footer-logo {
+    width: 301px;
+    height: 129px;
+    fill: #FEFEFE;
+}
+
+.footer-link {
+    color: var(--link-color);
+}
+
+.footer-line {
+    outline: 1px solid #fff;
+    margin-top: 24px;
+}
+
+.footer-text {
+    color: #fff;
+    text-align: center;
+    margin-top: 32px;
+    font-size: 12px;
+
+}

@@ -123,4 +123,61 @@
     width: 340px;
     height: auto;
   }
+
+  /* секція gallary */
+  .gallary-list {
+    gap: 24px;
+  }
+
+  .gllary-box {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .gallary-images {
+    border-radius: 8px;
+    width: 100%;
+    height: 159px;
+  }
+
+  .gallary-img {
+    width: 340px;
+    height: 340px;
+  }
+
+  /* секція clients */
+
+  .clients-text {
+    margin-bottom: 80px;
+  }
+
+  .clients-list {
+    row-gap: 64px;
+    gap: 24px;
+  }
+
+  .clients-subtext {
+    margin-bottom: 41px;
+    max-width: 340px;
+  }
+
+  /* секція cost */
+  .cost-subtitle {
+    font-family: 'Poppins';
+    margin-bottom: 24px;
+  }
+
+  .cost-text {
+    margin-bottom: 16px;
+  }
+
+  /* секція footer */
+
+  .footer-list {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-left: auto;
+}
+
 }
