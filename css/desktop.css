@@ -126,6 +126,7 @@
     }
 
     .gallary-list {
+        height: 640px;
         gap: 32px;
     }
 

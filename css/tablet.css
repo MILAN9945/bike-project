@@ -84,6 +84,10 @@
     flex-direction: column;
   }
 
+  .innovative-item:not(:first-child) {
+    max-width: 325px;
+  }
+
   .innovative-item:nth-child(1) {
     flex-direction: row;
   }
@@ -126,7 +130,9 @@
 
   /* секція gallary */
   .gallary-list {
+    flex-direction: column;
     gap: 24px;
+    height: 350px;
   }
 
   .gllary-box {
@@ -178,6 +184,6 @@
     flex-direction: row;
     gap: 32px;
     margin-left: auto;
-}
+  }
 
 }
